@@ -22,6 +22,7 @@ body {
 }
 .col-md-3 {
     width: 25%;
+    padding-top: 8px;
 }
 .col-md-6 {
     width: 50%;
@@ -60,3 +61,16 @@ body {
     background-color: #2c71b8;
     color: white;
 }
+input[type="search"] {
+    background-color: transparent;
+    border: 1px solid #2c71b8;
+    width: 50%;
+    height: 30px;
+    padding: 15px;
+    line-height: 50px;
+    marg
+}
+input[type="search"]::-webkit-input-placeholder {
+    color: #2c71b8;
+}
+
