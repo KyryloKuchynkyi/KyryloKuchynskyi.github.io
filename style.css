@@ -132,17 +132,24 @@ body {
     margin: auto;
     left: -1px;
   }
-  .menu > li:hover .boxx {
+  .menu li:hover .boxx {
     display: block;
   }
   .menu2 a {
     text-align: center;
     color: white;
   }
-  .menu2 a:hover {
-    background-color: white;
-    color: #2c71b8;
+  .menu  li:hover a {
+    background-color: #175592;
+    color: white;
+
   }
+  .menu > li:hover  a:hover {
+    background-color: white;
+    color:#175592 ;
+  }
+  
+ 
   
   /* /3/ */
   
