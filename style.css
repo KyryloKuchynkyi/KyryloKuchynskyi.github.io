@@ -41,6 +41,7 @@ body {
     padding-top: 7px;
   }
   .menu li {
+    position: relative;
     width: 25%;
     float: left;
     border-left: 1px solid #2c71b8;
@@ -121,7 +122,7 @@ body {
   /* /2/ */
   
   .boxx {
-    position: fixed;
+    position: absolute;
     width: 283px;
     height: 350px;
     display: none;
@@ -129,6 +130,7 @@ body {
     background-color: #175592;
     box-sizing: border-box;
     margin: auto;
+    left: -1px;
   }
   .menu > li:hover .boxx {
     display: block;
