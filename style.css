@@ -139,15 +139,16 @@ body {
     text-align: center;
     color: white;
   }
-  .menu  li:hover a {
+  .menu  .products:hover > a {
     background-color: #175592;
     color: white;
-
   }
-  .menu > li:hover  a:hover {
+  
+  .menu > .products:hover  a:hover {
     background-color: white;
     color:#175592 ;
   }
+ 
   
  
   
@@ -159,4 +160,37 @@ body {
   .menu li:nth-child(2) > a:hover {
     background: url(images/arrow2.png) no-repeat 120px 16px;
     background-color: #175592;
+  }
+
+  /* main */
+
+  .col-md-12 {
+      width: 100%;
+  }
+  .col-md-9 {
+      width: 75%;
+  }
+  .container2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container3 {
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+  }
+  .slide {
+      height: 400px;
+      border: 3px solid black;
+  }
+  .leftmenu {
+      width: 270px;
+      height: 845px;
+      border: 3px solid black;
+  }
+  .prices {
+      width: 920px;
+      display: block;
+      float: left;
   }
