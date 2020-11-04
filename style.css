@@ -139,6 +139,7 @@ body {
     text-align: center;
     color: white;
   }
+  
   .menu  .products:hover > a {
     background-color: #175592;
     color: white;
@@ -163,34 +164,59 @@ body {
   }
 
   /* main */
+ 
+  /* slaid */
 
-  .col-md-12 {
-      width: 100%;
-  }
-  .col-md-9 {
-      width: 75%;
-  }
-  .container2 {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .container3 {
-    width: 100%;
-    margin: 0;
-    padding: 0; 
-  }
-  .slide {
-      height: 400px;
-      border: 3px solid black;
-  }
-  .leftmenu {
-      width: 270px;
-      height: 845px;
-      border: 3px solid black;
-  }
-  .prices {
-      width: 920px;
-      display: block;
-      float: left;
-  }
+.col-md-12 {
+  width: 100%;
+}
+.slaid {
+  height: 400px;
+}
+
+/* main menu */
+
+.col-md-9 {
+  width: 75%;
+}
+.osnova {
+}
+.left-menu {
+  height: 845px;
+  width: 270px;
+}
+
+.col-md-4 {
+  width: 33.3%;
+}
+.linebox {
+  box-sizing: border-box;
+  display: block;
+  width: 880px;
+  height: 652px;
+}
+.boxes {
+  margin: 0 auto;
+  height: 650px;
+  width: 270px;
+}
+.monitor {
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
+.tip {
+  width: 270px;
+  height: 665px;
+}
+
+/* .monitor */
+
+.monitor {
+  border: 1px solid white;
+  text-align: center;
+  background-color: #346699;
+}
+.monitor > li:first-child {
+  background-color: #cadbed;
+}
