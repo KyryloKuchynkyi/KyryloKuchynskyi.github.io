@@ -101,7 +101,6 @@ body {
     background-position: 10px 10px;
     width: 40px;
     height: 40px;
-    background-size: cover;
   }
   .white-box {
     position: relative;
@@ -132,6 +131,11 @@ body {
     box-sizing: border-box;
     margin: auto;
     left: -1px;
+  }
+  .menu2:hover > a {
+    background-color: white;
+    color: #2c71b8;
+
   }
   .menu li:hover .boxx {
     display: block;
@@ -200,8 +204,27 @@ body {
   height: 170px;
 }
 .img > img {
-  padding-left: 81px;
-  padding-top: 38px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0;
+}
+.img-box {
+  border: 1px solid #2c71b8;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: url(images/img-box2.png) no-repeat 50% 50%;
+  left: 230px;
+  top: 15px;
+}
+.img-heart {
+  border: 1px solid #2c71b8;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: url(images/img-heart2.png) no-repeat 50% 50%;
+  left: 230px;
+  top: 30px;
 }
 .name {
   width: 270px;
@@ -262,4 +285,14 @@ sup {
   color:white;
   border: 1px solid white;
 }
-
+.textlaptop {
+  font-size: 50px;
+  color: white;
+  padding-bottom: 50px;
+}
+.but-telega {
+  background: url(images/telega-button.png) no-repeat 90% 15px;
+}
+.butt > button:hover {
+  background-color:  rgba(255, 255, 255, 0.514);
+}
