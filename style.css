@@ -69,7 +69,7 @@ body {
     width: 200px;
     height: 40px;
     margin-left: -15px;
-    padding-left: 17px;
+    padding-left: 10px;
     padding-top: 4px;
   }
   input[type="text"] {
@@ -93,6 +93,7 @@ body {
     background-repeat: no-repeat;
     background-position: 8px 9px;
     border: none;
+    margin-right: 8px;
   }
   .cart {
     background-color: white;
