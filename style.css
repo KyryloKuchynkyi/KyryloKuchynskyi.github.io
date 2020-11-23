@@ -427,6 +427,9 @@ input[type="checkbox"] {
    background-color: #3366cc;
    border: 1px solid white;
  }
+ .submit:hover {
+  background-color:  rgba(255, 255, 255, 0.514);
+ }
  .submit > a {
    color: white;
    font-weight: bold;
